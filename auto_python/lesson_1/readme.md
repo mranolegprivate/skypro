@@ -26,7 +26,7 @@
 4. Напишите команду вывода значения переменной на экран. Используйте функцию `print`.
 5. Запустите скрипт.
 
-### **[Задание 4](https://github.com/mranolegprivate/skypro/blob/main/auto_python/lesson_1/lesson_3_task_7.py "Задание 4"). Получите пользовательский ввод**
+### **[Задание 4](https://github.com/mranolegprivate/skypro/blob/main/auto_python/lesson_1/lesson_3_task_3.py "Задание 4"). Получите пользовательский ввод**
 
 1. Создайте файл lesson_1_task_3.py.
 2. Создайте переменную user_name.
