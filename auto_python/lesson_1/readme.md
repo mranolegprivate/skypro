@@ -17,7 +17,11 @@
 6. В правом верхнем углу нажмите кнопку play. В консоль выведется значение переменной.
 
 Убедитесь, что в VS Code включено автосохранение («Файл» -> «Автосохранение»).
+```
+my_name = "Олег"
 
+print(my_name)
+```
 ### **[Задание 3](https://github.com/mranolegprivate/skypro/blob/main/auto_python/lesson_1/lesson_1_task_2.py "Задание 3"). Перезапишите переменную**
 
 1. Создайте файл lesson_1_task_2.py.
@@ -25,6 +29,12 @@
 3. В следующей строке присвойте этой же переменной другое значение — ваш возраст через 3 года.
 4. Напишите команду вывода значения переменной на экран. Используйте функцию `print`.
 5. Запустите скрипт.
+
+```
+my_age = 35
+my_age =38
+print(my_age)
+```
 
 ### **[Задание 4](https://github.com/mranolegprivate/skypro/blob/main/auto_python/lesson_1/lesson_1_task_3.py "Задание 4"). Получите пользовательский ввод**
 
@@ -39,7 +49,13 @@
 
 Строки можно складывать.
 Пример: "abc"+"123" = "abc123"
+```
+user_name = input()
 
+print(user_name)
+
+print("Привет, " + user_name)
+```
 ### **[Задание 5](https://github.com/mranolegprivate/skypro/blob/main/auto_python/lesson_1/lesson_1_task_4.py "Задание 5"). Получите пользовательский ввод**
 
 1. Создайте файл lesson_1_task_4.py.
@@ -47,7 +63,12 @@
 3. Создайте переменную last_name.
 4. Задайте значение обеих переменных через функцию input.
 5. Выведите на экран текст в формате «Вас зовут: last_name first_name».
+```
+first_name = input("Введите Ваше имя: ")
+last_name = input("Введите Вашу фамилию: ")
 
+print("Вас зовут:", last_name, first_name)
+```
 ### **[Задание 6](https://github.com/mranolegprivate/skypro/blob/main/auto_python/lesson_1/lesson_1_task_6.py "Задание 6"). Создание функции**
 
 1. Создайте файл lesson_1_task_6.py.
@@ -56,7 +77,12 @@
 4. Напишите код, который вызывает функцию print_greeting().
 
 Объявление функции (def) должно быть в коде **до** ее вызова.
+```
+def print_greeting():
+    print("Привет, Мир!")
 
+print_greeting()
+```
 ### **[Задание 7](https://github.com/mranolegprivate/skypro/blob/main/auto_python/lesson_1/lesson_1_task_7.py "Задание 7"). Вызов функций**
 
 1. Создайте файл lesson_1_task_7.py
@@ -72,9 +98,67 @@
     9. Вывести в консоль 9
     10. Вывести в консоль 0
 3. Вызовите объявленные функции в таком порядке, чтобы на экране отобразился номер 88005553535.
+```
+def print_1():
+    print(1)
 
+def print_2():
+    print(2)
+
+def print_3():
+    print(3)
+
+def print_4():
+    print(4)
+
+def print_5():
+    print(5)
+
+def print_6():
+    print(6)
+
+def print_7():
+    print(7)
+
+def print_8():
+    print(8)
+
+def print_9():
+    print(9)
+
+def print_0():
+    print(0)
+
+print_8() 
+print_8()
+print_0()
+print_0()
+print_5()
+print_5()
+print_5()
+print_3()
+print_5()
+print_3()
+print_5()
+```
 ### **[Задание 8](https://github.com/mranolegprivate/skypro/blob/main/auto_python/lesson_1/lesson_1_task_8.py "Задание 8"). Параметризация функций**
 
 1. Создайте файл lesson_1_task_8.py.
 2. Создайте функцию, которая принимает на вход параметр num и печатает этот параметр в консоль.
 3. Вызовите эту функцию 11 раз так, чтобы в консоль вывелся номер 88005553535.
+```
+def number(num):
+    print(num)
+
+number(8)
+number(8)
+number(0)
+number(0)
+number(5)
+number(5)
+number(5)
+number(3)
+number(5)
+number(3)
+number(5)
+```
