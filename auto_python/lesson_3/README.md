@@ -97,7 +97,9 @@
 2. Поделитесь скриншотом рисунка в чате с коллегами.
 
 [Мой рисунок: Колобок](https://github.com/mranolegprivate/skypro/blob/main/auto_python/lesson_3/animal.py 'Колобок')
-
+<div align="center">
+<img src = "https://github.com/mranolegprivate/skypro/blob/main/auto_python/lesson_3/Screenshot_3.jpg?raw=true"/>
+</div>
 
 
 
